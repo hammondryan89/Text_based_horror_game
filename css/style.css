@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'blood_crowregular';
+    src: url('../fonts/bloodCrow/bloodcrow-webfont.woff2') format('woff2'),
+         url('../fonts/bloodCrow/bloodcrow-webfont.woff') format('woff'),
+         url('../fonts/bloodCrow/bloodcrow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "1942";
+    src: url('../fonts/1942 font/1942-webfont.woff') format('woff');
+    src: url('../fonts/1942 font/1942-webfont.woff2') format('woff2');
+    src: url('../fonts/1942 font/1942.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Anas_Rusty";
+    src: url('../fonts/Anas_rusty_font/rusty_typewriter-webfont.woff') format('woff');
+    src: url('../fonts/Anas_rusty_font/rusty_typewriter-webfont.woff2') format('woff2');
+    src: url('../fonts/Anas_rusty_font/rusty_typewriter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.btn {
+    color: white;
+    font-weight: bold;
+    background-color: #cd0f0f;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+    background-color: #cd0f0f;
+    color: white;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #cd0f0f;
+}
+
+.btn:active {
+    background-color: #cd0f0f;
+    color: white;
+    box-shadow: none;
+}
+
+body {
+    font-family: 'Special Elite', serif;
+    font-size: 19px;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    background-color: black;
+}
+
+#intro {
+    font-family: '1942';
+    font-size: 60px;
+}
+
+#time {
+    font-family: '1942';
+	font-size: 50px;
+	color: #cd0f0f;
+}
+
+#button {
+    padding: 3px;
+    margin: 5px;
+}
+
+footer {
+    font-size: 12px;
+    margin: auto;
+    margin-left: -9.5%;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#coffins {
+    font-size: 50px;
+}
+
+#coffins button {
+    color: black;
+}
+
+#myText{
+    margin-left: 5%;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:0; }
+    50% { opacity:0; }
+    100% { opacity:0; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:0; }
+    50% { opacity:0; }
+    100% { opacity:0; }
+}
+@-moz-keyframes blink{
+    0% { opacity:0; }
+    50% { opacity:0; }
+    100% { opacity:0; }
+}

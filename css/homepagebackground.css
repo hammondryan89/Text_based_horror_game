@@ -1,0 +1,278 @@
+.bodyback {
+    background: url("../lightning2.gif") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+@font-face {
+    font-family: 'survival_horrorregular';
+    src: url('../fonts/survivalHorror/survival_horror-webfont.woff2') format('woff2'),
+         url('../fonts/survivalHorror/survival_horror-webfont.woff') format('woff'),
+         url('../survival_horror.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'blood_crowregular';
+    src: url('../fonts/bloodCrow/bloodcrow-webfont.woff2') format('woff2'),
+         url('../fonts/bloodCrow/bloodcrow-webfont.woff') format('woff'),
+         url('../fonts/bloodCrow/bloodcrow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face{
+	font-family: "1942";
+	src: url('../fonts/1942 font/1942-webfont.woff') format('woff');
+	src: url('../fonts/1942 font/1942-webfont.woff2') format('woff2');
+	src: url('../fonts/1942 font/1942.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+    font-family: "Anas_Rusty";
+    src: url('../fonts/Anas_rusty_font/rusty_typewriter-webfont.woff') format('woff');
+    src: url('../fonts/Anas_rusty_font/rusty_typewriter-webfont.woff2') format('woff2');
+    src: url('../fonts/Anas_rusty_font/rusty_typewriter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#intro2{
+	font-size: 70px;
+	font-family: '1942';
+	margin-top:50px;
+}
+
+.logoImg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	height: 100px;
+}
+
+#logo{
+	float: left;
+	position: fixed;
+	left: 45%;
+	top: 37%;
+}
+
+.aboutButton{
+	margin-top: 1%;
+}
+
+.frontButton{
+	margin-top: 15%;
+	padding-left: 33px;
+	padding-right: 33px;
+}
+
+.frontButton2{
+	padding: 20px;
+	position: relative;
+}
+
+.frontButton3{
+	margin-top: 20px;
+	position: relative;
+}
+
+#content2{
+	width: 100%;
+	margin-top: 15%;
+	position: relative;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#about{
+	font-size: 70px;
+	font-family: '1942';
+}
+
+
+#aboutUs{
+	margin-top: 2%;
+	font-family: 'Special Elite';
+}
+
+#contact{
+	font-size: 70px;
+	font-family: '1942';
+}
+
+#contact_info{
+	margin-right: 15%;
+	margin-left: 15%;
+	font-family:"Anas_Rusty";
+	font-size:20px;
+}
+
+hr{ 
+    display:block;
+    border:none;
+    color:red;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 400, from(red), to(black));
+}
+
+
+
+#contact_text{
+	margin-top: 2%;
+	font-family: 'Special Elite';
+	font-family:"Anas_Rusty";
+	font-size:25px;
+	letter-spacing: 2px;
+}
+
+.user_info{
+	display: inline-block;
+    text-align: left;
+    margin-left: 2%
+}
+
+#contact_frm{
+	margin-left: 17%;
+}
+
+#user_last_name{
+	margin-left: .5%;
+	font-family: "Times New Roman";
+	font-size: 20px;
+	
+}
+
+#user_first_name{
+	font-family: "Times New Roman";
+	font-size: 20px;
+}
+
+
+#user_email{
+	width: 350px;
+	font-family: "Times New Roman";
+	font-size: 25px;
+}
+
+#mess_but{
+	font-family: "Anas_Rusty";
+	margin-left: 3%;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+#user_message{
+	margin-left: 2.5%;
+	font-family: "Times New Roman";
+	font-size: 20px;
+}
+
+#contact_info{
+	text-align: left;
+}
+
+.finalImage{
+	display: none;
+}
+
+.imageXplode{
+	-webkit-animation: fading 3s;
+	animation-name: fading;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+}
+
+@keyframes fading{
+	0% {opacity: 0.0}
+	5% {opacity: 0.1}
+	10% {opacity: 0.2}
+	15% {opacity: 0.3}
+	20% {opacity: 0.4}
+	25% {opacity: 0.5}
+	30% {opacity: 0.6}
+	35% {opacity: 0.7}
+	40% {opacity: 0.8}
+	45% {opacity: 0.9}
+	50% {opacity: 1.0}
+	55% {opacity: 0.9}
+	60% {opacity: 0.8}
+	65% {opacity: 0.7}
+	70% {opacity: 0.6}
+	75% {opacity: 0.5}
+	80% {opacity: 0.4}
+	85% {opacity: 0.3}
+	90% {opacity: 0.2}
+	95% {opacity: 0.1}
+	100% {opacity: 0.0}
+}
+
+@-webkit-keyframes fading{
+	0% {opacity: 0.0}
+	5% {opacity: 0.1}
+	10% {opacity: 0.2}
+	15% {opacity: 0.3}
+	20% {opacity: 0.4}
+	25% {opacity: 0.5}
+	30% {opacity: 0.6}
+	35% {opacity: 0.7}
+	40% {opacity: 0.8}
+	45% {opacity: 0.9}
+	50% {opacity: 1.0}
+	55% {opacity: 0.9}
+	60% {opacity: 0.8}
+	65% {opacity: 0.7}
+	70% {opacity: 0.6}
+	75% {opacity: 0.5}
+	80% {opacity: 0.4}
+	85% {opacity: 0.3}
+	90% {opacity: 0.2}
+	95% {opacity: 0.1}
+	100% {opacity: 0.0}
+}
+
+.animateFlicker {
+    -webkit-animation: flicker 10s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: flicker;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes flicker{
+    0% {opacity:0}
+    3% {opacity:1}
+    6% {opacity:0}
+    7% {opacity:0}
+    8% {opacity:1}
+    9% {opacity:0}
+    10% {opacity:1}
+    99% {opacity:1}
+    100% {opacity:0}
+}
+
+@keyframes flicker{
+	0% {opacity:0}
+    3% {opacity:1}
+    6% {opacity:1}
+    7% {opacity:0}
+    8% {opacity:1}
+    9% {opacity:0}
+    10% {opacity:1}
+    99% {opacity:1}
+    100% {opacity:0}
+}
